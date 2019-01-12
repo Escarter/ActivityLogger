@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CleBea\\ActivityLogger": "src/"
+            "CleBea\\ActivityLogger\\": "src/"
         }
     },
     "extra": {
@@ -32,7 +32,7 @@
                 "CleBea\\Activitylogger\\ActivityloggerServiceProvider"
             ],
             "aliases": {
-                "ActivityLogger": "CleBea\\Activitylogger\\Facade"
+                "ActivityLogger": "CleBea\\Activitylogger\\Facade\\"
             }
         }
 
