@@ -21,11 +21,7 @@
     "autoload": {
         "psr-4": {
             "CleBea\\ActivityLogger\\": "src/"
-        },
-        "classmap": [
-            "database",
-            "clebea/activitylogger/src/database/migrations"
-        ]
+        }
     },
     "extra": {
         "branch-alias": {
