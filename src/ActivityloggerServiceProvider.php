@@ -1,10 +1,10 @@
 <?php
 
-namespace CleBea\Activitylogger;
+namespace CleBea\ActivityLogger;
 
 use Illuminate\Support\ServiceProvider;
 
-class ActivityloggerServiceProvider extends ServiceProvider
+class ActivityLoggerServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.

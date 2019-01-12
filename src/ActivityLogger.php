@@ -1,9 +1,9 @@
 <?php
 
-namespace CleBea\Activitylogger;
+namespace CleBea\ActivityLogger;
 
 use App\User;
-use CleBea\Activitylogger\Models\ActivityLog;
+use CleBea\ActivityLogger\Models\ActivityLog;
 
 class ActivityLogger
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace CleBea\Activitylogger\Models;
+namespace CleBea\ActivityLogger\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
