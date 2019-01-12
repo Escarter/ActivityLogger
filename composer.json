@@ -29,10 +29,10 @@
         },
         "laravel": {
             "providers": [
-                "CleBea\\Activitylogger\\ActivityloggerServiceProvider"
+                "CleBea\\ActivityLogger\\ActivityLoggerServiceProvider"
             ],
             "aliases": {
-                "ActivityLogger": "CleBea\\Activitylogger\\Facade\\"
+                "ActivityLogger": "CleBea\\ActivityLogger\\Facade\\"
             }
         }
 
