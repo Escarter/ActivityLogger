@@ -7,7 +7,7 @@ use CleBea\Activitylogger\Models\ActivityLog;
 
 class ActivityLogger
 {
-    public function logActivity(User $user, $action, $amount, $message)
+    public function log(User $user, $action, $amount, $message)
     {
         return ActivityLog::create([
             'logger' => $user->getFullName(),
