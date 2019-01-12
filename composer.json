@@ -1,0 +1,31 @@
+{
+    "name": "clebea/activitylogger",
+    "description": "This logs app activities in the database",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Escarter Brieno",
+            "email": "brienom@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CleBea\\ActivityLogger": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CleBea\\Activitylogger\\ActivityloggerServiceProvider"
+            ],
+            "aliases": {
+                "ActivityLogger": "CleBea\\Activitylogger\\Facade"
+            }
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
