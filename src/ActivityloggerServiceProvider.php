@@ -11,7 +11,10 @@ class ActivityloggerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+        // $this->publishes([
+        //     __DIR__.'/database/migrations' => $this->app->databasePath().'/migrations',
+        // ], 'migrations');
     }
 
     /**
@@ -19,9 +22,8 @@ class ActivityloggerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('ActivityLogger', function (Container $app) {
+        $this->app->bind('activitylogger', function () {
             return new ActivityLogger();
         });
-        $this->app->alias('ActivityLogger', ActivityLogger::class);
     }
 }
