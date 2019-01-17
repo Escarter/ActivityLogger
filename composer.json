@@ -12,8 +12,6 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.0",
-        "illuminate/contracts": "^5.1",
-        "illuminate/support": "^5.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
