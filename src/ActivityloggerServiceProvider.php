@@ -22,7 +22,7 @@ class ActivityLoggerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('activitylogger', function () {
+        $this->app->bind('activitylogger', function() {
             return new ActivityLogger();
         });
     }
