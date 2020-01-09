@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CleBea\\ActivityLogger\\": "src/"
+            "CleBea\\Activitylogger\\": "src/"
         }
     },
     "extra": {
@@ -27,7 +27,7 @@
         },
         "laravel": {
             "providers": [
-                "CleBea\\ActivityLogger\\ActivityLoggerServiceProvider"
+                "CleBea\\Activitylogger\\ActivityloggerServiceProvider"
             ],
             "aliases": {
                 "ActivityLogger": "CleBea\\ActivityLogger\\Facade\\"
